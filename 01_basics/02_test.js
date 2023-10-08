@@ -10,5 +10,27 @@ interfered with. Its just a warning for variables with basic names. You don't ne
 => Answers are taken from stackoverflow
 */
 
-name = "Mahesh";
+// name = "Mahesh";
 console.log(name);
+
+// Operators
+/*
+Arithmetic
+Assignment +=, -= ...
+Copmarison 
+*/
+
+// equality = 1. Loose equality(==,!=) and strict equality(===,!==)
+
+/*
+    Note :
+    Loose equality checks only value but strict equality checks value + data type
+*/
+
+let a = 5;
+let b = "5";
+console.log(a == b); // true
+console.log(a === b); //false
+
+console.log(a !== b); //true
+console.log(a != b); //false
