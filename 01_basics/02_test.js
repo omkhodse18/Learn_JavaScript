@@ -18,6 +18,9 @@ console.log(name);
 Arithmetic
 Assignment +=, -= ...
 Copmarison 
+logical
+Ternary => (condition) ? true : false
+Bitwise AND & OR
 */
 
 // equality = 1. Loose equality(==,!=) and strict equality(===,!==)
@@ -34,3 +37,24 @@ console.log(a === b); //false
 
 console.log(a !== b); //true
 console.log(a != b); //false
+
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
+console.log(true || true);
+
+console.log(false || 5);
+console.log(false || 5 || 1);
+console.log(false || 0 || 8 || 2);
+console.log(false || 1 || 8 || 2);
+
+console.log(false && false);
+console.log(false && true);
+console.log(true && true);
+console.log(false && false);
+
+console.log(false && 1);
+
+// falsy and truthy values
+// falsy contains undefined, NaN, NULL, false, 0, ' ' values
+// Truthy contains true and anything that is not a falsy value
