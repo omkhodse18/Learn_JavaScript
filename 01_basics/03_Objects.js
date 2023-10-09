@@ -1,3 +1,4 @@
+// ======================================= SECTION 1 ===================================================
 /*
 What is Objects?
 => Collection of key-value pairs.
@@ -24,6 +25,8 @@ console.log(rectangle.breadth);
 console.log(rectangle.draw);
 rectangle.draw();
 rectangle.draw2();
+
+// ======================================= SECTION 2 ===================================================
 
 /*
 Object Creation :
@@ -69,9 +72,63 @@ console.log(obj2.draw());
 
 let a = {}; // Empty object or we make 'a'  empty objects.
 
+// ======================================= SECTION 3 ===================================================
+
 // Dynamic nature of objects
 obj2.color = "Red"; // Dynamically added property
 console.log(obj2);
 
 delete obj2.color;
 console.log(obj2);
+
+// ======================================= SECTION 4 ===================================================
+
+/*
+=> Types in JS 
+  1. Primitive type => number, string, boolean, NULL, etc;
+  2. Reference type => function, array, object
+
+  NOTE THAT => Primitive are copied by their value 
+               Reference are copide by their address/reference               
+*/
+
+// ======================================= SECTION 5 ===================================================
+
+// For-in and for-of loops
+for (keys in obj2) {
+  // keys are reflected through keys variables
+  // Values are reflected through obj2[keys]
+  console.log(keys, obj2[keys]);
+}
+
+//for of is only use on iterables (i.e. arrays and map) not on objects but there is a hack as follows:
+for (keys of Object.keys(obj2)) {
+  console.log(keys, obj2[keys]);
+}
+
+// ======================================= SECTION 6 ===================================================
+
+// How do you find property exist or not in objects?
+// You can find directly
+if ("color" in obj2) {
+  console.log("Preset");
+} else {
+  console.log("Absent");
+}
+
+if ("name" in obj2) {
+  console.log("Preset");
+} else {
+  console.log("Absent");
+}
+
+// ======================================= SECTION 7 ===================================================
+
+/* Object cloninng in javaScript
+  1. Iteration
+  2. Assign => let dest = Object.assign({ } , src)
+                  { } = create empty object and assigh src values to it
+  3. Spread => let dest = {...src};
+
+  Go through this website => https://www.freecodecamp.org/news/clone-an-object-in-javascript/
+*/
