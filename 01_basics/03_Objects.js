@@ -68,3 +68,10 @@ console.log(obj2.lastname);
 console.log(obj2.draw());
 
 let a = {}; // Empty object or we make 'a'  empty objects.
+
+// Dynamic nature of objects
+obj2.color = "Red"; // Dynamically added property
+console.log(obj2);
+
+delete obj2.color;
+console.log(obj2);
