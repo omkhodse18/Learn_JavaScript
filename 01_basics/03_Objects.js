@@ -50,4 +50,21 @@ console.log(obj1.name);
 console.log(obj1.lastName);
 console.log(obj1.age());
 
+// Constructor Fucntion => nothing but it only initialize or define the property
+// this keyword => this refers to the current object on which we are working.
+
+function ConstructorFuction(fn, ln) {
+  this.name = fn;
+  this.lastName = ln;
+  this.draw = function () {
+    console.log("draw");
+  };
+}
+
+let obj2 = new ConstructorFuction("ABC", "XYZ");
+console.log(obj2);
+console.log(obj2.name);
+console.log(obj2.lastname);
+console.log(obj2.draw());
+
 let a = {}; // Empty object or we make 'a'  empty objects.
