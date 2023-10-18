@@ -17,7 +17,7 @@ console.log(name.toUpperCase());
 // Go throgh more properties => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 
 let msg = "Hello all, how's life going?";
-let words = msg.split(" "); //This will split msg on basis of space and store it in words just like an array
+let words = msg.split(" "); //This will split msg on basis of space and store it in words just like an array(It is array)
 console.log(words);
 console.log("Words type = : " + typeof words);
 
