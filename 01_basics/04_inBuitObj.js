@@ -25,3 +25,16 @@ let lastName = new String("Khodse"); // This will create object string
 
 console.log("Lastname type : " + typeof lastName);
 console.log("Name type : " + typeof name);
+
+// ======================================= SECTION 3 ===================================================
+// Template Literals
+// => Agar muje mere msg ko kisi bhi tarah print karna hain to template literals use karte hain
+// => Template literals are literals delimited with backtick (`) characters, allowing for multi-line strings, string interpolation with embedded expressions, and special constructs called tagged templates.
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+
+let message = `Hi ${name + lastName}
+                How are you
+                Keep it up
+Javascript`;
+
+console.log(message);
