@@ -104,3 +104,42 @@ This code assigned the array a to a new empty array. It works perfectly if you d
 
 Here [1,2,3] are automatically deleted by garbage collector if you do not have any references to the original array
 */
+
+// ======================================= SECTION 3 ===================================================
+// ----------------------------------    Combining and slicing an array     ----------------------------------
+let a = [1, 2, 3];
+let b = [4, 5, 6];
+
+let combined = a.concat(b);
+console.log(combined);
+
+let sliced = combined.slice(2, 4);
+console.log(sliced);
+
+// ----------------------------------    Spread operator   (...)  ----------------------------------
+let combined2 = [...a, ...b];
+let combined3 = [...a, "a", ...b, "false"];
+console.log(combined2);
+console.log(combined3);
+let combined4 = [...combined3];
+console.log(combined4);
+
+// ======================================= SECTION 4 ===================================================
+// ----------------------------------    Iterating array     ----------------------------------
+
+for (value of combined4) {
+  console.log(value);
+}
+// For each , Here val(or any variable) is like 'i'.
+combined3.forEach((val) => console.log(val));
+
+// ======================================= SECTION 5 ===================================================
+// ----------------------------------    Joining and splitting     ----------------------------------
+
+let msg = "Hello all, how's life going?";
+let words = msg.split(" "); //This will split msg on basis of space and store it in words just like an array(It is array)
+console.log(words);
+console.log("Words type = : " + typeof words);
+
+let joined = words.join(" ");
+console.log(joined);
