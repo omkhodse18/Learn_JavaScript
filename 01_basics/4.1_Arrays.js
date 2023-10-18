@@ -92,3 +92,15 @@ console.log("Middle : " + numbers);
 
 numbers.pop();
 console.log("End:" + numbers);
+
+// ----------------------------------    Emptying an array     ----------------------------------
+// Go through this => https://www.javascripttutorial.net/array/4-ways-empty-javascript-array/
+// Read Carefully
+
+/*
+let a = [1,2,3];
+a = [];
+This code assigned the array a to a new empty array. It works perfectly if you do not have any references to the original array
+
+Here [1,2,3] are automatically deleted by garbage collector if you do not have any references to the original array
+*/
