@@ -50,3 +50,12 @@ showMe(); // a hoisting example
     let result = say("Hello");
     console.log("Result:", result);
 */
+
+function sum(a, b) {
+  // Argument is special object accessible inside functions that contains the values of the arguments passed to that function.
+  console.log(arguments);
+  return a + b;
+}
+
+console.log(sum(2, 4));
+console.log(sum(2, 4, 5, 6, 7, 8));
