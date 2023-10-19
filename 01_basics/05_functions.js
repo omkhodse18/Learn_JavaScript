@@ -66,3 +66,5 @@ console.log(sum(2, 4, 5, 6, 7, 8));
 ===> Rest parameters   (https://www.javascripttutorial.net/es6/javascript-rest-parameters/)
 The rest parameter syntax allows a function to accept an indefinite number of arguments as an 'array',
 */
+
+// Go through GETTER AND SETTERS
