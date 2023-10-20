@@ -20,5 +20,32 @@ https://www.javascripttutorial.net/javascript-dom/document-object-model-in-javas
 => .innerText
 
 check => innerHTML vs textcontent
+check => innerTEXT vs textcontent
+
+
+Do by yourself (HTML)=> 
+    Inserting or Creating element
+    1) createElement()
+    2) appendChild
+    3) adding text to upper tags
+    4) insertAdjacentHTML() => has to be called with 2 arg.
+                            => location / position => Check properties
+                            => HTML text / context to be inserted
+
+    // Removing element
+    5) removeChild() => opposite to create
+                     => You should know its parent element and child element to remove
+                     => drawback is you need to know parent always, you can use <child-element>.parent() method
+                        and then simply <parent-name>.removeChild(<childElement>)
+*/
+
+// =============================================== SECTION 2 =========================================================
+/*
+    Changing CSS style page content using JS
+    1) .style 
+    2) .cssText
+    3) .setAttribute 
+    4) .className
+    5) .classList 
 
 */
