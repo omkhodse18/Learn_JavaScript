@@ -7,6 +7,10 @@ https://www.javascripttutorial.net/javascript-dom/document-object-model-in-javas
 -> Tree like structured
 
 
+    => Pure ke pure HTML ke code ko javascript object mein convert karde to usse document kehte hain aur document par hum kaam karte usse hum DOM bolte hain.
+    => Agar javascipt communicate karti hain browser ke sath to usse hum BOM bolte hain
+    => window ye global object hota hain aur ussi mein hi DOM aur BOM aur JS ki core functionalites lie karti hain
+
 */
 
 /*
