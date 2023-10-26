@@ -36,3 +36,17 @@
     3. When async code is ready to be executed, it moves to the queue where it waits until call stack is empty
     4. Whenever call stack is empty, the code moves from queue to callstack and gets executed.  
  */
+
+//  ++++++++++++++++++++++++++++++ setTimeout ++++++++++++++++++++++++++++++++
+
+setTimeout(function () {
+  console.log("Hi");
+}, 4000);
+
+/*
+    4000 are milli-seconds(4sec)
+
+    Is this print "HI" after 4 seconds?
+    =>  There is no gurantee. 4 seconds is minimum time but it will executes after call stack becomes empty as it is async code
+
+*/
