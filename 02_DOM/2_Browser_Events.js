@@ -73,8 +73,8 @@
     As 'a' tag open a link which is its default behaviour, but we can prevent its default behaviour by event.preventDefault() method. Make sure event pass to addEventListner's function because we are applying preventDefault() method on event. 
 */
 
-// ==================================== SECTION 3 ============================================
-// ------------------------ Avoid to many events ---------------------------
+// ============================================= SECTION 3 ================================================
+//           ---------------------------- Avoid to many events ------------------------------
 /*
     Check this on websites also watch events
 */
