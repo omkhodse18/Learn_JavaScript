@@ -23,3 +23,16 @@
 // +++++++++++++++++++++++++++  EVENT LOOP ++++++++++++++++++++++++++++++++++++++++++
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop
 // https://www.javascripttutorial.net/javascript-event-loop/
+/*
+    => philip robert = http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D
+
+    => https://www.youtube.com/watch?v=8aGhZQkoFbQ
+*/
+
+/*
+    A bit more .:
+    1. Async code Event loop ke dwara hi execute hota hain  (setTimeout, event listners)
+    2. Any async is handle by browser
+    3. When async code is ready to be executed, it moves to the queue where it waits until call stack is empty
+    4. Whenever call stack is empty, the code moves from queue to callstack and gets executed.  
+ */
