@@ -89,3 +89,6 @@ B> .catch()
         ++++++++++++ check example 4.1 and 4.2 ++++++++++++++++++++++++++
 
 */
+
+// ++++++++++++++++ Go through "Closures" (Watch last 10 min of video) +++++++++++++++++++++++++
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
