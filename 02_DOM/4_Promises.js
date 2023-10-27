@@ -84,4 +84,10 @@ B> .catch()
         promise.catch(error => {
           // interpret error and maybe display something on the UI
         })
+
+
+        ++++++++++++ check example 4.1 and 4.2 ++++++++++++++++++++++++++
+
+
+
 */
